@@ -1,0 +1,101 @@
+/* Copies slider */
+.number-of-copies-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+.number-of-copies-filter-slider {
+  margin-bottom: 16px;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+}
+
+.number-of-copies-filter-outputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number-of-copies-filter-output {
+  background-color: rgb(0 0 0 / 0%);
+  font-family: Steppe;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: white;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.number-of-copies-container-title {
+  font-family: Steppe;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.noUi-target {
+  border: none;
+  background: white;
+  border-radius: 0px;
+  box-shadow: none;
+  height: 2px;
+}
+
+.noUi-connect {
+  background: #24C5DB;
+}
+
+.noUi-handle::after,
+.noUi-handle::before {
+  display: none;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  background: url(/assets/thumb.svg) no-repeat;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 16px;
+  height: 16px;
+  right: -8px;
+  top: -7px;
+  border: none;
+  cursor: ew-resize;
+}
+/* Year slider */
+.number-of-years-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.number-of-years-container-title {
+  font-family: Steppe;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: white;
+  margin-bottom: 16px;
+}
+.number-of-years-filter-slider {
+  margin-bottom: 16px;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+}
+.number-of-years-filter-outputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number-of-years-filter-output {
+  background-color: rgb(0 0 0 / 0%);
+  font-family: Steppe;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: white;
+  border: none;
+}

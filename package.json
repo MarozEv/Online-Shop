@@ -1,0 +1,17 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "dist",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "nouislider": "^15.7.1"
+  }
+}
