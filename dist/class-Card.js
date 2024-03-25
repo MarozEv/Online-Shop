@@ -14,6 +14,8 @@ export class Card {
         const element = document.createElement('div');
         element.classList.add('good-item');
         element.setAttribute('data-num', `${this.num}`);
+        element.setAttribute('data-count', `${this.count}`);
+        element.setAttribute('data-year', `${this.year}`);
         element.innerHTML =
             `
       <h3 class="good-name">${this.name}</h3>
